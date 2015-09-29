@@ -1,0 +1,69 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+body{
+	background: #CE93D8;
+	font-family: 'Helvetica', arial, sans-serif;
+
+	font-size: 15px;
+}
+
+.container{
+	max-width: 1080px;
+	margin: 20px auto;
+	background: #fff;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.header{
+	border: 1px solid #CE93D8;
+	background: #9C27B0;
+	padding: 10px;
+	margin: 10px;
+}
+
+.warna{
+	color:#F3E5F5
+}
+
+/* Untuk Main */
+	.left{
+		width: 250px;
+		border: 1px solid #CE93D8;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+	}
+
+	.middle{
+		width: 500px;
+		border: 1px solid #CE93D8;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+	}
+		.middle img{
+			max-width: 100%;
+			height: auto;
+		}
+
+	.right{
+		width: 250px;
+		border: 1px solid #CE93D8;
+		padding: 10px;
+		margin: 10px;
+		float: left;
+	}
+
+/* Untuk footer */
+.footer{
+	clear: both;
+	border: 1px solid #CE93D8;
+	padding: 10px;
+	margin: 10px;
+}
